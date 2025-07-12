@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "sky_orchards:block/sand_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "sky_orchards:block/sand_log"
+    },
+    "axis=z": {
+      "model": "sky_orchards:block/sand_log",
+      "x": 90
+    }
+  }
+}

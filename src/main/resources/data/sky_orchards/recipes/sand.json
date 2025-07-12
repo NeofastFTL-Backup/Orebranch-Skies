@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "sky_orchards:sand_resin"
+    },
+    "S": {
+      "item": "sky_orchards:sand_acorn"
+    }
+  },
+  "pattern": [
+    "SAS",
+    "ASA",
+    "SAS"
+  ],
+  "result": {
+    "item": "minecraft:sand"
+  },
+  "show_notification": true
+}

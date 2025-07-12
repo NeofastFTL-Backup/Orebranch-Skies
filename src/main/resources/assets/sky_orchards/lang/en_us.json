@@ -1,0 +1,49 @@
+{
+  "item.sky_orchards.cottonwood_acorn": "Cottonwood Acorn",
+  "item.sky_orchards.cottonwood_resin": "Cottonwood Resin",
+
+  "block.sky_orchards.cottonwood_amber": "Cottonwood Amber",
+  "block.sky_orchards.cottonwood_leaves": "Cottonwood Leaves",
+  "block.sky_orchards.cottonwood_log": "Cottonwood Log",
+  "block.sky_orchards.cottonwood_sapling": "Cottonwood Sapling",
+
+  "item.sky_orchards.dirt_acorn": "Dirt Acorn",
+  "item.sky_orchards.dirt_resin": "Dirt Resin",
+
+  "block.sky_orchards.dirt_amber": "Dirt Amber",
+  "block.sky_orchards.dirt_leaves": "Dirt Leaves",
+  "block.sky_orchards.dirt_log": "Dirt Log",
+  "block.sky_orchards.dirt_sapling": "Dirt Sapling",
+
+  "item.sky_orchards.petrified_acorn": "Petrified Acorn",
+  "item.sky_orchards.petrified_resin": "Petrified Resin",
+
+  "block.sky_orchards.petrified_amber": "Petrified Amber",
+  "block.sky_orchards.petrified_leaves": "Petrified Leaves",
+  "block.sky_orchards.petrified_log": "Petrified Log",
+  "block.sky_orchards.petrified_sapling": "Petrified Sapling",
+
+  "item.sky_orchards.clay_acorn": "Clay Acorn",
+  "item.sky_orchards.clay_resin": "Clay Resin",
+
+  "block.sky_orchards.clay_amber": "Clay Amber",
+  "block.sky_orchards.clay_leaves": "Clay Leaves",
+  "block.sky_orchards.clay_log": "Clay Log",
+  "block.sky_orchards.clay_sapling": "Clay Sapling",
+
+  "item.sky_orchards.sand_acorn": "Sand Acorn",
+  "item.sky_orchards.sand_resin": "Sand Resin",
+
+  "block.sky_orchards.sand_amber": "Sand Amber",
+  "block.sky_orchards.sand_leaves": "Sand Leaves",
+  "block.sky_orchards.sand_log": "Sand Log",
+  "block.sky_orchards.sand_sapling": "Sand Sapling",
+
+  "item.sky_orchards.gravel_acorn": "Gravel Acorn",
+  "item.sky_orchards.gravel_resin": "Gravel Resin",
+
+  "block.sky_orchards.gravel_amber": "Gravel Amber",
+  "block.sky_orchards.gravel_leaves": "Gravel Leaves",
+  "block.sky_orchards.gravel_log": "Gravel Log",
+  "block.sky_orchards.gravel_sapling": "Gravel Sapling"
+}

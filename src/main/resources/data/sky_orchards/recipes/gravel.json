@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "sky_orchards:gravel_resin"
+    },
+    "S": {
+      "item": "sky_orchards:gravel_acorn"
+    }
+  },
+  "pattern": [
+    "SAS",
+    "ASA",
+    "SAS"
+  ],
+  "result": {
+    "item": "minecraft:gravel"
+  },
+  "show_notification": true
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "sky_orchards:petrified_resin"
+    },
+    "S": {
+      "item": "sky_orchards:petrified_acorn"
+    }
+  },
+  "pattern": [
+    "SAS",
+    "ASA",
+    "SAS"
+  ],
+  "result": {
+    "item": "minecraft:cobblestone"
+  },
+  "show_notification": true
+}

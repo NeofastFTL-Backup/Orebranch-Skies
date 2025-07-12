@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.neofastftl.sky_orchards_regrew.items",
+  "mixins": [
+	"ItemStackMixin"
+  ],
+  "client": [
+  ],
+  "server": [
+  ],
+  "injectors": {
+	"defaultRequire": 1
+  }
+}

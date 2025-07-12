@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "S": {
+      "item": "sky_orchards:cottonwood_resin"
+    },
+    "A": {
+      "item": "sky_orchards:cottonwood_acorn"
+    }
+  },
+  "pattern": [
+    "SAS",
+    "ASA",
+    "SAS"
+  ],
+  "result": {
+    "item": "sky_orchards:cottonwood_amber"
+  },
+  "show_notification": true
+}

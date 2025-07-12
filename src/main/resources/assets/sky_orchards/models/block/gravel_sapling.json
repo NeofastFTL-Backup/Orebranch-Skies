@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "sky_orchards:block/gravel_sapling"
+  }
+}
