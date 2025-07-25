@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "minecraft:oak_sapling"
+    },
+    "S": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " S ",
+    "S S",
+    "STS"
+  ],
+  "result": {
+    "item": "sky_orchards:cottonwood_sapling"
+  },
+  "show_notification": true
+}
