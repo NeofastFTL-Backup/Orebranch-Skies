@@ -14,6 +14,7 @@ import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -77,6 +78,42 @@ public class CustomBlocks {
     public static final RegistryObject<Block> GRAVEL_SAPLING = registerBlock("gravel_sapling",
             () -> new SaplingBlock(new GravelTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
     public static final RegistryObject<Block> GRAVEL_AMBER = registerBlock("gravel_amber",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+
+    public static final RegistryObject<Block> COAL_LOG = registerBlock("coal_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(1f)));
+    public static final RegistryObject<Block> COAL_LEAVES = registerBlock("coal_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+    public static final RegistryObject<Block> COAL_SAPLING = registerBlock("coal_sapling",
+            () -> new SaplingBlock(new CoalTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> COAL_AMBER = registerBlock("coal_amber",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+
+    public static final RegistryObject<Block> IRON_LOG = registerBlock("iron_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(1f)));
+    public static final RegistryObject<Block> IRON_LEAVES = registerBlock("iron_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+    public static final RegistryObject<Block> IRON_SAPLING = registerBlock("iron_sapling",
+            () -> new SaplingBlock(new IronTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> IRON_AMBER = registerBlock("iron_amber",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+
+    public static final RegistryObject<Block> GOLD_LOG = registerBlock("gold_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(1f)));
+    public static final RegistryObject<Block> GOLD_LEAVES = registerBlock("gold_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+    public static final RegistryObject<Block> GOLD_SAPLING = registerBlock("gold_sapling",
+            () -> new SaplingBlock(new GoldTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> GOLD_AMBER = registerBlock("gold_amber",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLASS)));
+
+    public static final RegistryObject<Block> LAPIS_LOG = registerBlock("lapis_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).strength(1f)));
+    public static final RegistryObject<Block> LAPIS_LEAVES = registerBlock("lapis_leaves",
+            () -> new LeavesBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES)));
+    public static final RegistryObject<Block> LAPIS_SAPLING = registerBlock("lapis_sapling",
+            () -> new SaplingBlock(new LapisTreeGrower(), BlockBehaviour.Properties.copy(Blocks.OAK_SAPLING)));
+    public static final RegistryObject<Block> LAPIS_AMBER = registerBlock("lapis_amber",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GLASS)));
 
 

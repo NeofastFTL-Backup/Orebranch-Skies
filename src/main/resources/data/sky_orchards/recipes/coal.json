@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "sky_orchards:coal_resin"
+    },
+    "S": {
+      "item": "sky_orchards:coal_acorn"
+    }
+  },
+  "pattern": [
+    "SAS",
+    "ASA",
+    "SAS"
+  ],
+  "result": {
+    "item": "minecraft:coal_block"
+  },
+  "show_notification": true
+}

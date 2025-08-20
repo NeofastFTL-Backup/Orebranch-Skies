@@ -12,7 +12,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "sky_orchards:clay_resin",
+          "name": "sky_orchards:gravel_resin",
           "weight": 1
         }
       ]
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "sky_orchards:clay_resin",
+          "name": "sky_orchards:gravel_resin",
           "weight": 1
         }
       ]

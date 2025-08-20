@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "T": {
+      "item": "minecraft:oak_sapling"
+    },
+    "S": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " S ",
+    "S S",
+    "STS"
+  ],
+  "result": {
+    "item": "sky_orchards:iron_sapling"
+  },
+  "show_notification": true
+}
