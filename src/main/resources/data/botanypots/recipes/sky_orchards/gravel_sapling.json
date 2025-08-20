@@ -1,0 +1,43 @@
+{
+  "type":"botanypots:crop",
+  "seed":{
+    "item":"sky_orchards:gravel_sapling"
+  },
+  "categories":["dirt","farmland"],
+  "growthTicks":1200,"display":
+{
+  "type":"botanypots:aging",
+  "block":"sky_orchards:gravel_sapling"
+},
+  "drops":
+  [
+    {
+      "chance":1.00,"output":
+    {
+      "item":"sky_orchards:gravel_log"
+    },
+      "minRolls":1,"maxRolls":2
+    },
+    {
+      "chance":0.20,"output":
+    {
+      "item":"sky_orchards:gravel_resin"
+    },
+      "minRolls":1,"maxRolls":2
+    },
+    {
+      "chance":0.10,"output":
+    {
+      "item":"sky_orchards:gravel_acorn"
+    },
+      "minRolls":1,"maxRolls":2
+    },
+    {
+      "chance":0.05,"output":
+    {
+      "item":"sky_orchards:gravel_leaves"
+    },
+      "minRolls":1,"maxRolls":2
+    }
+  ]
+}

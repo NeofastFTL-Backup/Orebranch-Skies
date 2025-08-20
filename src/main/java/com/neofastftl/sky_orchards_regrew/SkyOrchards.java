@@ -17,6 +17,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
@@ -94,6 +95,20 @@ public class SkyOrchards {
             event.accept(CustomBlocks.GRAVEL_LOG);
             event.accept(CustomBlocks.GRAVEL_SAPLING);
             event.accept(CustomBlocks.GRAVEL_AMBER);
+
+            event.accept(CustomItems.COAL_ACORN);
+            event.accept(CustomItems.COAL_RESIN);
+            event.accept(CustomBlocks.COAL_LEAVES);
+            event.accept(CustomBlocks.COAL_LOG);
+            event.accept(CustomBlocks.COAL_SAPLING);
+            event.accept(CustomBlocks.COAL_AMBER);
+
+            event.accept(CustomItems.IRON_ACORN);
+            event.accept(CustomItems.IRON_RESIN);
+            event.accept(CustomBlocks.IRON_LEAVES);
+            event.accept(CustomBlocks.IRON_LOG);
+            event.accept(CustomBlocks.IRON_SAPLING);
+            event.accept(CustomBlocks.IRON_AMBER);
         }
     }
     private static void setRenderLayer(Supplier<? extends Block> supplier, RenderType type) {
@@ -128,6 +143,12 @@ public class SkyOrchards {
 
             Sheets.addWoodType(ModWoodTypes.GRAVEL);
             SkyOrchards.setRenderLayer(CustomBlocks.GRAVEL_SAPLING, RenderType.cutout());
+
+            Sheets.addWoodType(ModWoodTypes.COAL);
+            SkyOrchards.setRenderLayer(CustomBlocks.COAL_SAPLING, RenderType.cutout());
+
+            Sheets.addWoodType(ModWoodTypes.IRON);
+            SkyOrchards.setRenderLayer(CustomBlocks.IRON_SAPLING, RenderType.cutout());
         }
     }
 }

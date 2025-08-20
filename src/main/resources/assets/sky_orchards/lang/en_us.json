@@ -45,5 +45,21 @@
   "block.sky_orchards.gravel_amber": "Gravel Amber",
   "block.sky_orchards.gravel_leaves": "Gravel Leaves",
   "block.sky_orchards.gravel_log": "Gravel Log",
-  "block.sky_orchards.gravel_sapling": "Gravel Sapling"
+  "block.sky_orchards.gravel_sapling": "Gravel Sapling",
+
+  "item.sky_orchards.coal_acorn": "Coal Acorn",
+  "item.sky_orchards.coal_resin": "Coal Resin",
+
+  "block.sky_orchards.coal_amber": "Coal Amber",
+  "block.sky_orchards.coal_leaves": "Coal Leaves",
+  "block.sky_orchards.coal_log": "Coal Log",
+  "block.sky_orchards.coal_sapling": "Coal Sapling",
+
+  "item.sky_orchards.iron_acorn": "Iron Acorn",
+  "item.sky_orchards.iron_resin": "Iron Resin",
+
+  "block.sky_orchards.iron_amber": "Iron Amber",
+  "block.sky_orchards.iron_leaves": "Iron Leaves",
+  "block.sky_orchards.iron_log": "Iron Log",
+  "block.sky_orchards.iron_sapling": "Iron Sapling"
 }

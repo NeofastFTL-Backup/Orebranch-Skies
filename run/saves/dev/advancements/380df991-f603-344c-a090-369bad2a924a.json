@@ -167,5 +167,11 @@
     },
     "done": true
   },
+  "botanypots:husbandry/get_hopper_pot": {
+    "criteria": {
+      "get_hopper_pot": "2025-08-07 12:46:45 +0200"
+    },
+    "done": true
+  },
   "DataVersion": 3465
 }

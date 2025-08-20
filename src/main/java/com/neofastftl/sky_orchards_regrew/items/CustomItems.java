@@ -42,6 +42,16 @@ public class CustomItems {
     public static final RegistryObject<Item> GRAVEL_RESIN = ITEMS.register("gravel_resin",
             () -> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> COAL_ACORN = ITEMS.register("coal_acorn",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COAL_RESIN = ITEMS.register("coal_resin",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_ACORN = ITEMS.register("iron_acorn",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> IRON_RESIN = ITEMS.register("iron_resin",
+            () -> new Item(new Item.Properties()));
+
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
